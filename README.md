@@ -1,4 +1,4 @@
-# Ojet Learing
+# Ojet Learning
 
 ### OJET BIND IF
 
