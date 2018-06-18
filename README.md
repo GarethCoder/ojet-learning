@@ -1,6 +1,7 @@
 # Ojet Learing
 
 ### OJET BIND IF
+
 - ``ojet-bind-if`` to conditionally render its contents only if a provided
 test returns true.
 
@@ -14,6 +15,7 @@ test returns true.
 ```
 
 ### OJET BIND FOR EACH
+
 - Use ``<oj-bind-for-each>`` to bind items of an array to the specified markup section. 
 The markup section is duplicated for each array item when element is rendered. 
 - ``<oj-bind-for-each>`` requires the application to specify a single ``<template>`` element as its direct child. The markup being stamped out should be placed 
@@ -28,14 +30,17 @@ inside of this <template> element.
 </template>
 </oj-bind-for-each>
 
+```
 
 ### OJET BIND TEXT
 
 - Use ``<oj-bind-text>`` to bind a text node to a variable.
 
 #### Example
+
 ```
 <span>
  <oj-bind-text value='[[myText]]'></oj-bind-text>
 </span>
+
 ```
